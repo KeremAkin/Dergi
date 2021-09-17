@@ -1,0 +1,98 @@
+*{
+	box-sizing : border-box;
+}
+.ana-baslik{
+	text-align : center;
+	font-family : cursive;
+	font-size : 60px;
+	font-weight : normal;
+}
+	
+.alt-baslik{
+	font-style : italic;
+	font-size : 30px;
+	text-align : center;
+	font-weight : normal;
+}
+
+p{
+	font-size : 20px;
+	font-weight : normal;
+}
+
+.ilk-satir{
+	display : flex;
+	
+	border-top : 3px solid black;
+	border-bottom : 3px solid black;
+	border-left : 1px solid black;
+	border-right : 1px solid black;
+	align-items : stretch;
+	margin : 10px;
+	margin-bottom : 0px;
+}
+.sutun{
+	padding : 10px;
+	width : 25%;
+	
+}
+.ilk-satir .ikinci-sutun{
+	border-left : 1px solid black;
+	border-right : 1px solid black;
+	width : 50%;
+}
+.ikinci-satir{
+	display : flex;
+	border-bottom : 3px solid black;
+	border-left : 1px solid black;
+	border-right : 1px solid black;
+	align-items : stretch;
+	margin : 10px;
+	margin-top : 0px;
+}
+
+.ikinci-satir .ikinci-sutun{
+	border-left : 1px solid black;
+	width : 75%;
+	display : flex;
+	flex-direction : column;
+	align-items : stretch;
+	justify-content : center;
+	
+	
+}
+.link{
+	font-size : 35px;
+	font-family : Futura;
+	font-weight : bold;
+	margin-left : 20px;
+	text-decoration : none;
+	color : #00008B;
+	
+}
+.link:hover{
+	text-decoration : underline;
+}
+.box{
+	align-items : center;
+	flex : 1;
+}
+.box-1{
+	background-color : #ffeaa7;
+
+}
+.box-2{
+	background-color : #81ecec;
+
+}
+.box-3{
+	background-color : #55efc4;
+
+}
+.box-4{
+	background-color : #74b9ff;
+
+}.box-5{
+	background-color : #a29bfe;
+
+}
